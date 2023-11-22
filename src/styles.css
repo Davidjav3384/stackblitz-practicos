@@ -1,0 +1,79 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.column {
+  width: 80%;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+button {
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+button:disabled {
+  background-color: #ddd;
+  color: #999;
+  cursor: not-allowed;
+}
+
+.app {
+  display: flex;
+  justify-content: space-between;
+}
+
+.columna-formulario {
+  width: 45%; 
+  margin: 2px;
+  text-align: left;
+  border: 2px solid rgb(48, 204, 42);
+  padding: 9px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.columna-carrito {
+  width: 45%; 
+  margin: 2px;
+  text-align: center;
+  border: 2px solid rgb(230, 158, 51);
+  padding: 9px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.total {
+  text-align: center;
+  border: 2px solid rgb(230, 158, 51);
+  padding: 9px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
